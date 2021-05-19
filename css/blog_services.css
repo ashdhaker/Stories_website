@@ -1,0 +1,26 @@
+.card-img-top{
+    width: 20vw;
+    height: 20vh;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:stretch;
+    justify-content: space-around;
+    
+}
+.card{
+    margin: 10px 10px;
+}
+.card img{
+    /* background-size: cover; */
+    width: auto;
+}
+
