@@ -76,3 +76,16 @@ function displaystory7() {
      location.href='#story7'
    }
 }
+let time= document.getElementById("time");
+setInterval(() => {
+      let d=new Date();
+      let day=d.getDay();
+      let month=d.getMonth();
+      let year= d.getFullYear();
+      let date= d.getDate();
+      let days=["Mon","Tue","Wed","Thur","Fri","Sat","Sun"];
+      let months=["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"];
+      // console.log(day,month,year,d.toLocaleDateString());
+      // console.log(days[day]+" "+months[month]+" "+date+" "+year);
+      time.innerHTML=d.toLocaleTimeString()+" "+days[day]+" "+months[month]+" "+date+" "+year;
+}, 1000);
