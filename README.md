@@ -1,1 +1,1 @@
-inspirational Storiesand blogging website
+inspirational Stories and blogging website
